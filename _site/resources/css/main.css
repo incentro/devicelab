@@ -1,0 +1,64 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 57px;
+	font-size: 3.57143rem;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+.header {
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+
+
+.mui-appbar {
+	background-color: #ffffff;
+}
+
+nav.mui-appbar ul {
+	margin: 0;
+}
+
+nav.mui-appbar ul a {
+	display: inline-block;
+}
+
+
+.bg-section {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+	left: 0;
+	overflow: hidden;
+	position: relative;
+   	top: 0;
+}
+
+.bg-section .mui-container {
+	margin-top: 12%;
+}
+
+.bg-section h1 {
+	margin-bottom: 1.07143rem;
+	margin-top: 0.67em;
+}
+
+.bg-section p {
+	color: #ffffff;
+}

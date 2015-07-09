@@ -1,1 +1,6 @@
-Hello World
+name: Incentro Devicelab
+description: Access a variety of devices in our Rotterdam testlab
+baseurl: 
+url: https://devicelab.incentro.com/
+markdown: rdiscount
+permalink: pretty

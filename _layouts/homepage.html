@@ -3,21 +3,21 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title> Home |  Incentro Devicelab</title>
-        <meta name="description" content="Access a variety of devices in our Rotterdam testlab"/>
-        <meta name="author" content=""/>
+        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+        <meta name="description" content="{{site.description}}"/>
+        <meta name="author" content="{{site.author}}"/>
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/resources/css/mui.min.css">
-        <link rel="stylesheet" href="/resources/css/main.css">
-        <script src="/resources/js/mui.min.js"></script>
+        <link rel="stylesheet" href="{{site.baseurl}}/resources/css/mui.min.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/resources/css/main.css">
+        <script src="{{site.baseurl}}/resources/js/mui.min.js"></script>
     </head>
 
     <body>
         <!--<header>
-            <h1>Incentro Devicelab</h1>
-            <h2>Access a variety of devices in our Rotterdam testlab</h2>
+            <h1>{{ site.name }}</h1>
+            <h2>{{ site.description }}</h2>
         </header>-->
         <header class="header">
             <nav class="mui-appbar mui-z1">
@@ -44,7 +44,7 @@
         <section class="bg-section" style="background-image: url('http://cdn.shopify.com/s/files/1/0258/0963/t/7/assets/device_lab_on_desk.jpg?1690085915195181641');">
             <div class="mui-container">
                 <div class="mui-col-md-6">
-                    <h1>Incentro Devicelab</h1>
+                    <h1>{{ site.name }}</h1>
                     <p>Testing your software on different devices brings a lot of hassle. To take a bit of hassle away you can come by and visit our device lab where you can try out your software on any of our devices. You can see if it's running smooth on an older version of iOS or Android en debug your code.</p>
                     <a href="/devices" class="mui-btn mui-btn-primary mui-btn-raised">View devices</a>
                 </div>
@@ -53,7 +53,7 @@
 
         <main>
 
-            
+            {{ content }}
 
         </main>
     
