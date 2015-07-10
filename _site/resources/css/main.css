@@ -35,7 +35,17 @@ nav.mui-appbar ul {
 }
 
 nav.mui-appbar ul a {
+	border-bottom: 4px solid transparent;
+	color: #333333;
 	display: inline-block;
+	font-weight: 300;
+	padding: 0px 15px;
+	text-transform: lowercase;
+}
+
+nav.mui-appbar ul a.active {
+	border-color: #F58233;
+	color: #F58233;
 }
 
 
@@ -61,4 +71,6 @@ nav.mui-appbar ul a {
 
 .bg-section p {
 	color: #ffffff;
+	font-size: 17px;
+	font-size: 1.21429rem;
 }
