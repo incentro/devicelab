@@ -25,6 +25,10 @@ h1 {
 	z-index: 2;
 }
 
+.offwhite {
+	background-color: #F5F5F5;
+	padding: 5%;
+}
 
 .mui-appbar {
 	background-color: #ffffff;
@@ -34,8 +38,11 @@ nav.mui-appbar ul {
 	margin: 0;
 }
 
-nav.mui-appbar ul a {
+nav.mui-appbar ul li {
 	border-bottom: 4px solid transparent;
+}
+
+nav.mui-appbar ul a {
 	color: #333333;
 	display: inline-block;
 	font-weight: 300;
@@ -43,8 +50,11 @@ nav.mui-appbar ul a {
 	text-transform: lowercase;
 }
 
-nav.mui-appbar ul a.active {
+nav.mui-appbar ul li.active {
 	border-color: #F58233;
+}
+
+nav.mui-appbar ul li.active a {
 	color: #F58233;
 }
 
@@ -73,4 +83,9 @@ nav.mui-appbar ul a.active {
 	color: #ffffff;
 	font-size: 17px;
 	font-size: 1.21429rem;
+}
+
+/* Devices section */
+#devices {
+	margin: 5% 0;
 }
