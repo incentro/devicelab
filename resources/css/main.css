@@ -27,7 +27,7 @@ h1 {
 
 .offwhite {
 	background-color: #F5F5F5;
-	padding: 5%;
+	padding: 5% 0;
 }
 
 .mui-appbar {
@@ -42,12 +42,21 @@ nav.mui-appbar ul li {
 	border-bottom: 4px solid transparent;
 }
 
-nav.mui-appbar ul a {
+nav.mui-appbar ul a,
+nav.mui-appbar ul a:visited {
 	color: #333333;
 	display: inline-block;
 	font-weight: 300;
 	padding: 0px 15px;
+	text-decoration: none;
 	text-transform: lowercase;
+}
+
+nav.mui-appbar ul a:active,
+nav.mui-appbar ul a:hover,
+nav.mui-appbar ul a:focus {
+	color: #F58233;
+	text-decoration: none;
 }
 
 nav.mui-appbar ul li.active {
@@ -93,4 +102,9 @@ nav.mui-appbar ul li.active a {
 /* Location section */
 #location {
 	margin: 5% 0;
+}
+
+#gmap {
+	height: 450px;
+	margin-top: 7%;
 }
