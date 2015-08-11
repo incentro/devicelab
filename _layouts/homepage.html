@@ -1,222 +1,65 @@
-<!DOCTYPE html>
+{% include head.html %}
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <meta name="description" content="{{site.description}}"/>
-        <meta name="author" content="{{site.author}}"/>
+{% include header.html %}
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="resources/css/mui.min.css">
-        <link rel="stylesheet" href="resources/css/main.css">
-        <script src="resources/js/mui.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    </head>
-
-    <body>
-        <!--<header>
-            <h1>{{ site.name }}</h1>
-            <h2>{{ site.description }}</h2>
-        </header>-->
-        <header class="header">
-            <nav class="mui-appbar mui-z1">
-                <div class="mui-container">
-                    <div class="mui-row">
-                        <div class="mui-col-xs-12 mui-col-sm-12 mui-col-md-4 mui-col-lg-4">
-                            <a href="http://www.incentro.com/" target="_blank">
-                                <img src="resources/img/logo-incentro.png" alt="Logo Incentro" class="mui-appbar-height">
-                            </a>
-                        </div>
-                        <div class="mui-col-xs-12 mui-col-sm-12 mui-col-md-6 mui-col-lg-6 mui-col-xs-offset-0 mui-col-sm-offset-0 mui-col-md-offset-2 mui-col-lg-offset-2 mui-text-right">
-                            <ul id="top-menu" class="mui-list-inline mui-appbar-line-height">
-                                <li class="active"><a href="#home">Home</a></li>
-                                <li><a href="#devices">Devices</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#location">Location</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <div class="mui-appbar-height"></div>
+    <div class="mui-appbar-height"></div>
+    {% for section in site.data.bgsection %}
         <section id="home" class="bg-section" style="background-image: url('http://cdn.shopify.com/s/files/1/0258/0963/t/7/assets/device_lab_on_desk.jpg?1690085915195181641');">
             <div class="mui-container">
                 <div class="mui-col-md-6">
-                    <h1>{{ site.name }}</h1>
-                    <p>Testing your software on different devices brings a lot of hassle. To take a bit of hassle away you can come by and visit our device lab where you can try out your software on any of our devices. You can see if it's running smooth on an older version of iOS or Android en debug your code.</p>
-                    <a href="#devices" class="mui-btn mui-btn-primary mui-btn-raised">View devices</a>
+                    <h1>{{ section.title }}</h1>
+                    <p>{{ section.intro }}</p>
+                    <a href="#devices" class="mui-btn mui-btn-primary mui-btn-raised">{{ section.button }}</a>
                 </div>
             </div>
         </section>
+    {% endfor %}
 
+    {% for section in site.data.devicesection %}
         <section id="devices">
             <div class="mui-container">
-                <h2>Devices</h2>
+                <h2>{{ section.title }}</h2>
                 <table class="mui-table mui-table-bordered">
                     <thead>
                         <tr>
-                            <th>Vendor</th>
-                            <th>Device</th>
-                            <th>Operating System</th>
-                            <th>OS Version</th>
+                            <th>{{ section.vendor }}</th>
+                            <th>{{ section.device }}</th>
+                            <th>{{ section.os }}</th>
+                            <th>{{ section.osversion }}</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Apple</td>
-                            <td>iPhone 3G</td>
-                            <td>iOS</td>
-                            <td>4.2.1</td>
-                        </tr>
-                        <tr>
-                            <td>Samsung</td>
-                            <td>Galaxy S1</td>
-                            <td>Android</td>
-                            <td>2.3.6</td>
-                        </tr>
-                        <tr>
-                            <td>Apple</td>
-                            <td>iPhone 3G</td>
-                            <td>iOS</td>
-                            <td>4.2.1</td>
-                        </tr>
-                        <tr>
-                            <td>Samsung</td>
-                            <td>Galaxy S1</td>
-                            <td>Android</td>
-                            <td>2.3.6</td>
-                        </tr>
-                        <tr>
-                            <td>Apple</td>
-                            <td>iPhone 3G</td>
-                            <td>iOS</td>
-                            <td>4.2.1</td>
-                        </tr>
-                        <tr>
-                            <td>Samsung</td>
-                            <td>Galaxy S1</td>
-                            <td>Android</td>
-                            <td>2.3.6</td>
-                        </tr>
+                        {% for device in site.data.devicelist %}
+                             <tr>
+                                <td>{{ device.vendor }}</td>
+                                <td>{{ device.device }}</td>
+                                <td>{{ device.os }}</td>
+                                <td>{{ device.osversion }}</td>
+                            </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>
         </section>
+    {% endfor %}
 
+    {% for section in site.data.aboutsection %}
         <section id="about" class="offwhite">
             <div class="mui-container">
-                <h2>What to expect</h2>
-                <p>Our Open Device Lab (ODL) is free to anybody to test their app or website on our devices. It can be pretty tough for developers to develop an app or website for a broad variety of devices and operating systems. With our Open Device Lab we try to make the lives of developers and testers a little easier.</p>
-                <p>At our office we have a special seperate part for our ODL, so you won't be bothered by other people while you're nailing that bug. At the desk of the ODL there is power for your laptop and devices, ofcourse you can use all of our devices and Wi-Fi. One of the core values of Incentro are 'Happy People', to keep you happy we also provide you with drinks, if you fancy a game of table tennis there will be an <a href="http://www.incentronaut.nl/" target="_blank">Incentronaut</a> eager to play with you.</p>
+                <h2>{{ section.title }}</h2>
+                {{ section.intro }}
             </div>
         </section>
+    {% endfor %}
 
-        <section id="location" class="">
+    {% for section in site.data.locationsection %}
+        <section id="location">
             <div class="mui-container">
-                <h2>Location</h2>
-                <p>Please let us know in advance if you want to use our lab. You can call us on: <a href="tel:+31102020544">+31 (0)10 20 20 544</a> or send an e-mail. We will then get back to you to confirm your appointment.</p>
-                <p>Our ODL is located in the historical Van Nelle Fabriek which you can find at the following address:</p>
-                <p>Incentro Rotterdam (building 'Koffie', unit 2429, 4th floor)<br />
-                Van Nelleweg 1<br />
-                3044BC Rotterdam</p>
-                <div class="mui-panel" id="gmap">
-                
-                </div>
+                <h2>{{ section.title }}</h2>
+                {{ section.intro }}
+                <div class="mui-panel" id="gmap"></div>
             </div>
         </section>
-        <script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script> 
-        <!-- Code from mapbuildr.com -->
-        <script> 
-            google.maps.event.addDomListener(window, 'load', init);
-            var map;
-            function init() {
-                var mapOptions = {
-                    center: new google.maps.LatLng(51.925076,4.431004),
-                    zoom: 15,
-                    zoomControl: true,
-                    zoomControlOptions: {
-                        style: google.maps.ZoomControlStyle.DEFAULT,
-                    },
-                    disableDoubleClickZoom: true,
-                    mapTypeControl: true,
-                    mapTypeControlOptions: {
-                        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-                    },
-                    scaleControl: true,
-                    scrollwheel: true,
-                    panControl: true,
-                    streetViewControl: true,
-                    draggable : true,
-                    overviewMapControl: true,
-                    overviewMapControlOptions: {
-                        opened: false,
-                    },
-                    mapTypeId: google.maps.MapTypeId.ROADMAP,
-                }
-                var mapElement = document.getElementById('gmap');
-                var map = new google.maps.Map(mapElement, mapOptions);
-                var locations = [
-        ['Incentro Rotterdam', 'Incentro Rotterdam (building \'Koffie\', unit 2429, 4th floor)<br />Van Nelleweg 1<br />3044BC Rotterdam', '+31 (0)10 20 20 544', 'undefined', 'http://www.incentro.com/', 51.92443398974132, 4.4318479255173315, 'https://mapbuildr.com/assets/img/markers/default.png']
-                ];
-                for (i = 0; i < locations.length; i++) {
-                    if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
-                    if (locations[i][2] =='undefined'){ telephone ='';} else { telephone = locations[i][2];}
-                    if (locations[i][3] =='undefined'){ email ='';} else { email = locations[i][3];}
-                   if (locations[i][4] =='undefined'){ web ='';} else { web = locations[i][4];}
-                   if (locations[i][7] =='undefined'){ markericon ='';} else { markericon = locations[i][7];}
-                    marker = new google.maps.Marker({
-                        icon: markericon,
-                        position: new google.maps.LatLng(locations[i][5], locations[i][6]),
-                        map: map,
-                        title: locations[i][0],
-                        desc: description,
-                        tel: telephone,
-                        email: email,
-                        web: web
-                    });
-        if (web.substring(0, 7) != "http://") {
-        link = "http://" + web;
-        } else {
-        link = web;
-        }
-                    bindInfoWindow(marker, map, locations[i][0], description, telephone, email, web, link);
-             }
-         function bindInfoWindow(marker, map, title, desc, telephone, email, web, link) {
-              var infoWindowVisible = (function () {
-                      var currentlyVisible = false;
-                      return function (visible) {
-                          if (visible !== undefined) {
-                              currentlyVisible = visible;
-                          }
-                          return currentlyVisible;
-                       };
-                   }());
-                   iw = new google.maps.InfoWindow();
-                   google.maps.event.addListener(marker, 'click', function() {
-                       if (infoWindowVisible()) {
-                           iw.close();
-                           infoWindowVisible(false);
-                       } else {
-                           var html= "<div style='color:#000;background-color:#fff;padding:5px;width:350px;'><h4>"+title+"</h4><p>"+desc+"<p><p>"+telephone+"<p><a href='"+link+"'' >"+web+"<a></div>";
-                           iw = new google.maps.InfoWindow({content:html});
-                           iw.open(map,marker);
-                           infoWindowVisible(true);
-                       }
-                });
-                google.maps.event.addListener(iw, 'closeclick', function () {
-                    infoWindowVisible(false);
-                });
-         }
-        }
-        </script>
+    {% endfor %}
 
-
-            {{ content }}
-        <script src="resources/js/scrollspy.js"></script>
-    </body>
-</html>
+{% include footer.html %}

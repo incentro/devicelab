@@ -1,0 +1,5 @@
+- title: Devices
+  vendor: Vendor
+  device: Device
+  os: Operating System
+  osversion: OS Version

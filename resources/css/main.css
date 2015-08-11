@@ -1,8 +1,10 @@
 html {
 	font-size: 16px;
+	font-size: 1rem;
 }
 
 body {
+	color: #333333;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-size: 1rem;
@@ -13,6 +15,15 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 57px;
 	font-size: 3.57143rem;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+h2 {
+	color: #333333;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+    font-size: 2.57143rem;
 	font-weight: 300;
 	text-transform: lowercase;
 }
@@ -32,6 +43,15 @@ h1 {
 
 .mui-appbar {
 	background-color: #ffffff;
+}
+
+.menu-button,
+.menu-button:active,
+.menu-button:hover,
+.menu-button:focus,
+.menu-button:visited {
+	color: #F58233;
+	text-decoration: none;
 }
 
 nav.mui-appbar ul {
@@ -67,6 +87,55 @@ nav.mui-appbar ul li.active a {
 	color: #F58233;
 }
 
+#sidedrawer {
+    background-color: #ffffff;
+    bottom: 0;
+    left: -200px;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    transition: left .2s;
+    width: 200px;
+    z-index: 2;
+}
+
+#sidedrawer.active {
+    left: 0;
+}
+
+#sidenav h2 {
+    padding-left: 22px;
+    margin: 0;
+}
+
+#sidenav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidenav li {
+	padding: 15px 22px;
+}
+
+#sidenav ul a,
+#sidenav ul a:visited {
+	color: #333333;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+#sidenav ul a:active,
+#sidenav ul a:hover,
+#sidenav ul a:focus {
+	color: #F58233;
+	text-decoration: none;
+}
+
+#sidenav ul li.active a {
+	color: #F58233;
+}
 
 .bg-section {
 	background-position: center center;
@@ -92,6 +161,10 @@ nav.mui-appbar ul li.active a {
 	color: #ffffff;
 	font-size: 17px;
 	font-size: 1.21429rem;
+}
+
+.mui-container {
+	overflow: hidden;
 }
 
 /* Devices section */

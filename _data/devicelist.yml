@@ -1,0 +1,11 @@
+- title: iPhone3G4.2.1
+  vendor: Apple
+  device: iPhone 3G
+  os: iOS
+  osversion: 4.2.1
+
+- title: SamsungGalaxy2.3.6
+  vendor: Samsung
+  device: Galaxy
+  os: Android
+  osversion: 2.3.6
