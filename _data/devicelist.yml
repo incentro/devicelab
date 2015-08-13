@@ -4,8 +4,8 @@
   os: iOS
   osversion: 4.2.1
 
-- title: SamsungGalaxy2.3.6
+- title: SamsungGalaxyS3.4.3
   vendor: Samsung
-  device: Galaxy
+  device: Galaxy S3
   os: Android
-  osversion: 2.3.6
+  osversion: 3.4
