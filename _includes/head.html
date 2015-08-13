@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <meta name="description" content="{{site.description}}"/>
-        <meta name="author" content="{{site.author}}"/>
+        <meta name="description" content="{{page.description}}"/>
+        <meta name="author" content="{{page.author}}"/>
+
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}" />
+        <meta property="og:description" content="{{page.description}}" />
+        <meta property="og:url" content="{{site.url}}" />
+        <meta property="og:site_name" content="{{site.name}}" />
+        <meta property="og:image" content="{{page.image}}" />
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:description" content="{{page.description}}"/>
+        <meta name="twitter:title" content="{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}"/>
+        <meta name="twitter:image:src" content="{{page.image}}"/>
+        <meta name="twitter:creator" content="@incentro_"/>
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
