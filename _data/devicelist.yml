@@ -4,6 +4,18 @@
   os: iOS
   osversion: 4.2.1
 
+- title: iPhone4.7.1.2
+  vendor: Apple
+  device: iPhone 4
+  os: iOs
+  osversion: 7.1.2
+
+- title: GoogleNexus7.4.4.2
+  vendor: Asus
+  device: Nexus 7
+  os: Android
+  osversion: 4.4.2
+
 - title: SamsungGalaxyS3.4.3
   vendor: Samsung
   device: Galaxy S3
