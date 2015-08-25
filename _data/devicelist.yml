@@ -16,6 +16,12 @@
   os: Android
   osversion: 4.4.2
 
+- title: NokiaLumia5208.1
+  vendor: Nokia
+  device: Lumia 520
+  os: Windows Phone
+  osversion: 8.1
+
 - title: SamsungGalaxyS3.4.3
   vendor: Samsung
   device: Galaxy S3
