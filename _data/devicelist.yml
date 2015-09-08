@@ -45,3 +45,9 @@
   device: Galaxy S5
   os: Android
   osversion: 5.0
+  
+- title: SamsungGalaxyTab3.4.3
+  vendor: Samsung
+  device: Galaxy Tab 3 10.1
+  os: Android
+  osversion: 4.4.4
