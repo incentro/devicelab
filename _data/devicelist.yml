@@ -1,9 +1,9 @@
-//- title: iPadAir8.4.1
-//  vendor: Apple
-//  device: iPad Air
-//  os: iOS
-//  osversion: 8.4.1
-// Taken by Kaan on 09-09-2015
+#- title: iPadAir8.4.1
+#  vendor: Apple
+#  device: iPad Air
+#  os: iOS
+#  osversion: 8.4.1
+# Taken by Kaan on 09-09-2015
 
 - title: iPhone3G4.2.1
   vendor: Apple
@@ -47,9 +47,9 @@
   os: Android
   osversion: 5.0
   
-//- title: SamsungGalaxyTab3.4.4.4
-//  vendor: Samsung
-//  device: Galaxy Tab 3 10.1
-//  os: Android
-//  osversion: 4.4.4
-// Taken by Kaan on 09-09-2015
+#- title: SamsungGalaxyTab3.4.4.4
+#  vendor: Samsung
+#  device: Galaxy Tab 3 10.1
+#  os: Android
+#  osversion: 4.4.4
+# Taken by Kaan on 09-09-2015
