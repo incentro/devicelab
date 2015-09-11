@@ -28,6 +28,12 @@
   device: Nexus 7
   os: Android
   osversion: 4.4.2
+  
+- title: LGG2.5.0.2
+  vendor: LG
+  device: G2
+  os: Android
+  osversion: 5.0.2
 
 - title: NokiaLumia5208.1
   vendor: Nokia
