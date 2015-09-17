@@ -11,17 +11,17 @@
   os: iOS
   osversion: 4.2.1
 
-- title: iPhone4.7.1.2
+- title: iPhone4S.9.0
   vendor: Apple
-  device: iPhone 4
+  device: iPhone 4S
   os: iOS
-  osversion: 7.1.2
+  osversion: 9.0
 
-- title: iPhone5S8.4.1
+- title: iPhone5S9.0
   vendor: Apple
   device: iPhone 5S
   os: iOS
-  osversion: 8.4.1
+  osversion: 9.0
 
 - title: GoogleNexus7.4.4.2
   vendor: Asus
