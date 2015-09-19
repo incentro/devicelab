@@ -16,6 +16,12 @@
   device: iPhone 4S
   os: iOS
   osversion: 9.0
+  
+- title: iPhone4S.9.1
+  vendor: Apple
+  device: iPhone 4S
+  os: iOS
+  osversion: 9.1
 
 - title: iPhone5S9.0
   vendor: Apple
