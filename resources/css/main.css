@@ -156,12 +156,14 @@ nav.mui-appbar ul li.active a {
 .bg-section h1 {
 	margin-bottom: 1.07143rem;
 	margin-top: 0.67em;
+	text-shadow: 1px 2px 3px #333333;
 }
 
 .bg-section p {
 	color: #ffffff;
 	font-size: 17px;
 	font-size: 1.21429rem;
+	text-shadow: 1px 2px 3px #333333;
 }
 
 .mui-container {
