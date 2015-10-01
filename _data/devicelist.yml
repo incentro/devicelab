@@ -29,11 +29,11 @@
   os: iOS
   osversion: 9.0.2
 
-- title: GoogleNexus7.4.4.2
+- title: GoogleNexus7.5.0.5
   vendor: Asus
   device: Nexus 7
   os: Android
-  osversion: 4.4.2
+  osversion: 5.0.5
   
 - title: LGG2.5.0.2
   vendor: LG
