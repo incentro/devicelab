@@ -17,11 +17,12 @@
   os: iOS
   osversion: 9.0
   
-- title: iPhone4S.9.0.2
-  vendor: Apple
-  device: iPhone 4S
-  os: iOS
-  osversion: 9.0.2
+#- title: iPhone4S.9.0.2
+#  vendor: Apple
+#  device: iPhone 4S
+#  os: iOS
+#  osversion: 9.0.2
+# Taken by Pieter
 
 - title: iPhone5S9.0.2
   vendor: Apple
@@ -33,13 +34,7 @@
   vendor: Asus
   device: Nexus 7
   os: Android
-  osversion: 5.0.5
-  
-- title: LGG2.5.0.2
-  vendor: LG
-  device: G2
-  os: Android
-  osversion: 5.0.2
+  osversion: 5.1.1
 
 - title: NokiaLumia5208.1
   vendor: Nokia
