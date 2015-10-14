@@ -2,5 +2,6 @@ name: Incentro Open Device Lab Rotterdam
 description: Access a variety of devices in our Rotterdam testlab
 baseurl: 
 url: https://devicelab.incentro.com/
+image: http://devicelab.incentro.com/resources/img/devicelab.JPG
 markdown: rdiscount
 permalink: pretty
