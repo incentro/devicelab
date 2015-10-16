@@ -69,3 +69,10 @@
 #  osversion: 4.4.4
 # Owner: Incentro Rotterdam
 # Taken by Kaan on 09-09-2015
+
+- title: Xi-Electronics4.0.1
+  vendor: Xi-Electronics
+  device: 7 inch Tablet
+  os: Android
+  osversion: 4.0.1
+# Owner: Pieter Bogaerts
