@@ -3,6 +3,7 @@
 #  device: iPad Air
 #  os: iOS
 #  osversion: 8.4.1
+# Owner: Incentro Rotterdam
 # Taken by Kaan on 09-09-2015
 
 - title: iPhone3G4.2.1
@@ -10,37 +11,43 @@
   device: iPhone 3G
   os: iOS
   osversion: 4.2.1
+# Owner: Pieter Bogaerts
 
 - title: iPhone4S.9.0
   vendor: Apple
   device: iPhone 4S
   os: iOS
   osversion: 9.0
+# Owner: Paul Baan
   
 #- title: iPhone4S.9.0.2
 #  vendor: Apple
 #  device: iPhone 4S
 #  os: iOS
 #  osversion: 9.0.2
-# Taken by Pieter
+# Owner: Pieter Bogaerts
+# Taken by Pieter Bogaerts
 
 - title: iPhone5S9.0.2
   vendor: Apple
   device: iPhone 5S
   os: iOS
   osversion: 9.0.2
+# Owner: Incentro Rotterdam
 
 - title: GoogleNexus7.5.0.5
   vendor: Asus
   device: Nexus 7
   os: Android
   osversion: 5.1.1
+# Owner: Erwin Lengkeek
 
 - title: NokiaLumia5208.1
   vendor: Nokia
   device: Lumia 520
   os: Windows Phone
   osversion: 8.1
+# Owner: Peter van der Lugt
 
 - title: SamsungGalaxyS3.4.3
   vendor: Samsung
@@ -53,10 +60,12 @@
   device: Galaxy S5
   os: Android
   osversion: 5.0
+# Owner: Incentro Rotterdam
   
 #- title: SamsungGalaxyTab3.4.4.4
 #  vendor: Samsung
 #  device: Galaxy Tab 3 10.1
 #  os: Android
 #  osversion: 4.4.4
+# Owner: Incentro Rotterdam
 # Taken by Kaan on 09-09-2015
