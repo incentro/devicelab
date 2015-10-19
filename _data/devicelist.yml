@@ -49,6 +49,13 @@
   osversion: 8.1
 # Owner: Peter van der Lugt
 
+- title: SamsungGalaxyY.2.3.5
+  vendor: Samsung
+  device: Galaxy Y
+  os: Android
+  osversion: 2.3.5
+# Owner: Pieter Bogaerts
+
 - title: SamsungGalaxyS3.4.3
   vendor: Samsung
   device: Galaxy S3
