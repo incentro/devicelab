@@ -77,6 +77,13 @@
 # Owner: Incentro Rotterdam
 # Taken by Kaan on 09-09-2015
 
+- title: SonyZ1.4.4.4
+  vendor: Sony
+  device: Z1
+  os: Android
+  osversion: 4.4.4
+# Owner: Lisanne van Nieuwkerk
+
 - title: Xi-Electronics4.0.4
   vendor: Xi-Electronics
   device: 7 inch Tablet
