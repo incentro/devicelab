@@ -1,3 +1,24 @@
+- title: GoogleNexus7.5.0.5
+  vendor: Asus
+  device: Nexus 7
+  os: Android
+  osversion: 5.1.1
+# Owner: Erwin Lengkeek
+
+- title: GoogleGlass
+  vendor: Google
+  device: Glass
+  os: Glass OS
+  osversion: XE22
+# Owner: Kees van Bemmel
+
+- title: HPChromebox
+  vendor: HP
+  device: Chromebox CB1-020ND
+  os: Chrome OS
+  osversion: -
+# Owner: Martijn Veenstra
+
 #- title: iPadAir8.4.1
 #  vendor: Apple
 #  device: iPad Air
@@ -34,13 +55,6 @@
   os: iOS
   osversion: 9.0.2
 # Owner: Incentro Rotterdam
-
-- title: GoogleNexus7.5.0.5
-  vendor: Asus
-  device: Nexus 7
-  os: Android
-  osversion: 5.1.1
-# Owner: Erwin Lengkeek
 
 - title: NokiaLumia5208.1
   vendor: Nokia
