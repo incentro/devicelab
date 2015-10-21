@@ -53,7 +53,7 @@
   vendor: HP
   device: Chromebox CB1-020ND
   os: Chrome OS
-  osversion: -
+  osversion: Latest
 # Owner: Martijn Veenstra
 
 - title: NokiaLumia5208.1
