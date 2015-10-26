@@ -139,6 +139,7 @@ nav.mui-appbar ul li.active a {
 }
 
 .bg-section {
+	background-image: url('../img/devicelab.JPG');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
