@@ -68,12 +68,14 @@
   device: Galaxy S
   os: Android
   osversion: 2.3
+# Owner: Duco Zitman
 
 - title: SamsungGalaxyS3.4.3
   vendor: Samsung
   device: Galaxy S3
   os: Android
   osversion: 4.3
+# Owner: Duco Zitman
 
 - title: SamsungGalaxyS5.5.0
   vendor: Samsung
