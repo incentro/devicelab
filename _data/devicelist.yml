@@ -1,8 +1,8 @@
-#- title: iPadAir8.4.1
-#  vendor: Apple
-#  device: iPad Air
-#  os: iOS
-#  osversion: 8.4.1
+- title: iPadAir8.4.1
+  vendor: Apple
+  device: iPad Air
+  os: iOS
+  osversion: 8.4.1
 # Owner: Incentro Rotterdam
 # Taken by Kaan on 09-09-2015
 
@@ -105,11 +105,11 @@
   osversion: 2.3.5
 # Owner: Pieter Bogaerts
   
-#- title: SamsungGalaxyTab3.4.4.4
-#  vendor: Samsung
-#  device: Galaxy Tab 3 10.1
-#  os: Android
-#  osversion: 4.4.4
+- title: SamsungGalaxyTab3.4.4.4
+  vendor: Samsung
+  device: Galaxy Tab 3 10.1
+  os: Android
+  osversion: 4.4.4
 # Owner: Incentro Rotterdam
 # Taken by Kaan on 09-09-2015
 
