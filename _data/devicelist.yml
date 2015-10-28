@@ -63,6 +63,20 @@
   osversion: 8.1
 # Owner: Peter van der Lugt
 
+- title: OculusRiftDK2
+  vendor: Oculus
+  device: Rift DK2
+  os: Oculus SDK
+  osversion: 0.7
+# Owner: Pieter Beekman
+
+- title: PhilipsBrilliance170S4
+  vendor: Philips
+  device: Brilliance 170S4 (1280 x 1024)
+  os: none
+  osversion: none
+# Owner: Martijn Dams
+
 - title: SamsungGalaxyS2.3
   vendor: Samsung
   device: Galaxy S
