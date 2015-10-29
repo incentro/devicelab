@@ -56,6 +56,13 @@
   osversion: Latest
 # Owner: Martijn Veenstra
 
+- title: HTCOneS4.1.1
+  vendor: HTC
+  device: One S
+  os: Android
+  osversion: 4.1.1
+# Owner: Edwin van der Geest
+
 - title: NokiaLumia5208.1
   vendor: Nokia
   device: Lumia 520
