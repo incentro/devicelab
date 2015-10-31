@@ -29,6 +29,14 @@ h2 {
 	text-transform: lowercase;
 }
 
+.mui-btn-danger {
+	background: #009600;
+}
+
+.mui-btn-danger:hover {
+	background: #00B900;
+}
+
 .header {
 	left: 0;
 	position: fixed;

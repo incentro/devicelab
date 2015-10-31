@@ -3,6 +3,7 @@
   device: iPad Air
   os: iOS
   osversion: 8.4.1
+  remarks: Unavailable
 # Owner: Incentro Rotterdam
 # Taken by Kaan on 09-09-2015
 
@@ -89,6 +90,7 @@
   device: Galaxy S
   os: Android
   osversion: 2.3
+  remarks: Unavailable
 # Owner: Duco Zitman
 
 - title: SamsungGalaxyS3.4.3
@@ -117,6 +119,7 @@
   device: Galaxy Tab 3 10.1
   os: Android
   osversion: 4.4.4
+  remarks: Unavailable
 # Owner: Incentro Rotterdam
 # Taken by Kaan on 09-09-2015
 
