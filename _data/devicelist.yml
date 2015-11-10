@@ -36,19 +36,19 @@
   osversion: 9.0.2
 # Owner: Incentro Rotterdam
 
-- title: BlackBerryBold97806.0
-  vendor: BlackBerry (RIM)
-  device: Bold 9780
-  os: BlackBerry OS
-  osversion: 6.0
-# Owner: Pieter Bogaerts
-
 - title: GoogleNexus7.5.0.5
   vendor: Asus
   device: Nexus 7
   os: Android
   osversion: 5.1.1
 # Owner: Erwin Lengkeek
+
+- title: BlackBerryBold97806.0
+  vendor: BlackBerry (RIM)
+  device: Bold 9780
+  os: BlackBerry OS
+  osversion: 6.0
+# Owner: Pieter Bogaerts
 
 - title: GoogleGlass
   vendor: Google
