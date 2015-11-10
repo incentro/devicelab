@@ -92,11 +92,11 @@
   osversion: none
 # Owner: Martijn Dams
 
-- title: SamsungGalaxyS2.3
+- title: SamsungGalaxyS2.3.3
   vendor: Samsung
   device: Galaxy S
   os: Android
-  osversion: 2.3
+  osversion: 2.3.3
 # Owner: Duco Zitman
 
 - title: SamsungGalaxyS3.4.3
