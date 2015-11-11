@@ -50,6 +50,13 @@
   osversion: 6.0
 # Owner: Pieter Bogaerts
 
+- title: BlackBerryCurve85204.6.1.314
+  vendor: BlackBerry (RIM)
+  device: Curve 8520
+  os: BlackBerry OS
+  osversion: 4.6.1.314
+# Owner: Pieter Beekman
+
 - title: GoogleGlass
   vendor: Google
   device: Glass
