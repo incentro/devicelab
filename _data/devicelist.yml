@@ -62,12 +62,13 @@
   osversion: XE22
 # Owner: Kees van Bemmel
 
-- title: HPChromebox
-  vendor: HP
-  device: Chromebox CB1-020ND
-  os: Chrome OS
-  osversion: Latest
+#- title: HPChromebox
+#  vendor: HP
+#  device: Chromebox CB1-020ND
+#  os: Chrome OS
+#  osversion: Latest
 # Owner: Martijn Veenstra
+# Taken by Martijn Veenstra at 24-11-2015
 
 - title: HTCOneS4.1.1
   vendor: HTC
