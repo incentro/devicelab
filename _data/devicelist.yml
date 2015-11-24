@@ -132,6 +132,14 @@
   osversion: 4.4.4
 # Owner: Incentro Rotterdam
 
+- title: SamsungI55002.2
+  vendor: Samsung
+  device: I5500
+  os: Android
+  osversion: 2.2
+  remarks: Unavailable
+# Owner: Kasper Reijnders
+
 - title: SonyZ1.4.4.4
   vendor: Sony
   device: Z1
