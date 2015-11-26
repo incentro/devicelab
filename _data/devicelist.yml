@@ -70,6 +70,13 @@
 # Owner: Martijn Veenstra
 # Taken by Martijn Veenstra at 24-11-2015
 
+- title: HTCOne5.0
+  vendor: HTC
+  device: One
+  os: Android
+  osversion: 5.0
+# Owner: Reinier van Scherpenzeel
+
 - title: HTCOneS4.1.1
   vendor: HTC
   device: One S
