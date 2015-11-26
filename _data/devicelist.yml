@@ -140,11 +140,11 @@
   osversion: 2.3.5
 # Owner: Pieter Bogaerts
   
-- title: SamsungGalaxyTab3.4.4.4
+- title: SamsungGalaxyTab3.4.4.2
   vendor: Samsung
   device: Galaxy Tab 3 10.1
   os: Android
-  osversion: 4.4.4
+  osversion: 4.4.2
 # Owner: Incentro Rotterdam
 
 - title: SamsungI55002.1
