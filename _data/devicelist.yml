@@ -147,11 +147,11 @@
   osversion: 4.4.4
 # Owner: Incentro Rotterdam
 
-- title: SamsungI55002.2
+- title: SamsungI55002.1
   vendor: Samsung
   device: I5500
   os: Android
-  osversion: 2.2
+  osversion: 2.1
 # Owner: Kasper Reijnders
 
 - title: SamsungI9500GalaxyS4.3.3
