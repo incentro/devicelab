@@ -77,6 +77,13 @@
   osversion: 4.1.1
 # Owner: Edwin van der Geest
 
+- title: Nokia5800XpressMusic9.4
+  vendor: Nokia
+  device: 5800 XpressMusic
+  os: Symbian
+  osversion: 9.4
+# Owner: Kasper Reijnders
+
 - title: NokiaLumia5208.1
   vendor: Nokia
   device: Lumia 520
@@ -138,7 +145,6 @@
   device: I5500
   os: Android
   osversion: 2.2
-  remarks: Unavailable
 # Owner: Kasper Reijnders
 
 - title: SonyZ1.4.4.4
