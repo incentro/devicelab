@@ -5,6 +5,13 @@
   osversion: 9.1
 # Owner: Incentro Rotterdam
 
+- title: iPodTouch4.2.1
+  vendor: Apple
+  device: iPod Touch 2
+  os: iOS
+  osversion: 4.2.1
+# Owner: Pieter Bogaerts
+
 - title: iPhone3G4.2.1
   vendor: Apple
   device: iPhone 3G
