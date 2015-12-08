@@ -1,16 +1,9 @@
-- title: iPadAir9.1
+- title: iPadAir9.2
   vendor: Apple
   device: iPad Air
   os: iOS
-  osversion: 9.1
+  osversion: 9.2
 # Owner: Incentro Rotterdam
-
-- title: iPodTouch4.2.1
-  vendor: Apple
-  device: iPod Touch 2
-  os: iOS
-  osversion: 4.2.1
-# Owner: Pieter Bogaerts
 
 - title: iPhone3G4.2.1
   vendor: Apple
@@ -40,6 +33,13 @@
   os: iOS
   osversion: 9.1
 # Owner: Incentro Rotterdam
+
+- title: iPodTouch4.2.1
+  vendor: Apple
+  device: iPod Touch 2
+  os: iOS
+  osversion: 4.2.1
+# Owner: Pieter Bogaerts
 
 - title: GoogleNexus7.5.1.1
   vendor: Asus
