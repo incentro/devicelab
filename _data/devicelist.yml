@@ -175,6 +175,13 @@
   osversion: 4.4.4
 # Owner: Lisanne van Nieuwkerk
 
+- title: SonyEricssonX102.3.3
+  vendor: Sony Ericsson
+  device: X10
+  os: Android
+  osversion: 2.3.3
+# Owner: Nils Denecke
+
 - title: Xi-Electronics4.0.4
   vendor: Xi-Electronics
   device: 7 inch Tablet
