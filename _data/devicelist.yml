@@ -77,6 +77,13 @@
 # Owner: Martijn Veenstra
 # Taken by Martijn Veenstra at 24-11-2015
 
+- title: HTCDesireS4.0
+  vendor: HTC
+  device: Desire S
+  os: Android
+  osversion: 4.0
+# Owner: Nils Denecke
+
 - title: HTCOne5.0.2
   vendor: HTC
   device: One
@@ -97,6 +104,13 @@
   os: Symbian
   osversion: 9.4
 # Owner: Kasper Reijnders
+
+# title: Nokia5800XpressMusic9.4
+# vendor: Nokia
+# device: 5800 XpressMusic
+# os: Symbian
+# osversion: 9.4
+# Owner: Nils Denecke (broken device)
 
 - title: NokiaLumia5208.1
   vendor: Nokia
