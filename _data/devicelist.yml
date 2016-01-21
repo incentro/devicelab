@@ -6,7 +6,7 @@
 # Owner: Incentro Rotterdam
 
 - title: iPhone3G4.2.1
-  vendor: Apple
+  vendor: Appled
   device: iPhone 3G
   os: iOS
   osversion: 4.2.1
@@ -77,11 +77,11 @@
 # Owner: Martijn Veenstra
 # Taken by Martijn Veenstra at 24-11-2015
 
-- title: HTCDesireS4.0
+- title: HTCDesireS2.3.5
   vendor: HTC
   device: Desire S
   os: Android
-  osversion: 4.0
+  osversion: 2.3.5
 # Owner: Nils Denecke
 
 - title: HTCOne5.0.2
