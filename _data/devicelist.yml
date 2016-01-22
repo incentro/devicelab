@@ -175,13 +175,6 @@
   osversion: 2.1
 # Owner: Kasper Reijnders
 
-- title: SamsungI9500GalaxyS4.3.3
-  vendor: Samsung
-  device: I9500 Galaxy S4
-  os: Android
-  osversion: 5.0
-# Owner: Pieter Beekman
-
 - title: SonyZ1.5.1.1
   vendor: Sony
   device: Z1
