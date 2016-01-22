@@ -182,11 +182,11 @@
   osversion: 5.0
 # Owner: Pieter Beekman
 
-- title: SonyZ1.5.0.2
+- title: SonyZ1.5.1.1
   vendor: Sony
   device: Z1
   os: Android
-  osversion: 5.0.2
+  osversion: 5.1.1
 # Owner: Lisanne van Nieuwkerk
 
 - title: SonyEricssonX102.3.3
