@@ -3,7 +3,6 @@
   device: iPad Air
   os: iOS
   osversion: 9.2.1
-  remarks: currently unavailable
 # Owner: Incentro Rotterdam
 
 - title: iPhone3G4.2.1
@@ -47,7 +46,6 @@
   device: Nexus 7
   os: Android
   osversion: 5.1.1
-  remarks: currently unavailable
 # Owner: Erwin Lengkeek
 
 - title: BlackBerryBold97806.0
