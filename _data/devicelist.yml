@@ -145,6 +145,7 @@
   device: Galaxy S3
   os: Android
   osversion: 4.3
+  remarks: Currently unavailable
 # Owner: Duco Zitman
 
 - title: SamsungGalaxyS5.5.0
@@ -152,6 +153,7 @@
   device: Galaxy S5
   os: Android
   osversion: 5.0
+  remarks: Currently unavailable
 # Owner: Incentro Rotterdam
 
 - title: SamsungGalaxyY2.3.5
