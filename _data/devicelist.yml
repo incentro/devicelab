@@ -98,6 +98,13 @@
   osversion: 4.1.1
 # Owner: Edwin van der Geest
 
+- title: HuawaiP6
+  vendor: Huawai
+  device: P6
+  os: Android
+  osversion: 4.2.2
+# Owner: Nils Denecke
+
 - title: Nokia5800XpressMusic9.4
   vendor: Nokia
   device: 5800 XpressMusic
