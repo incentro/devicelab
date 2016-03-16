@@ -98,8 +98,8 @@
   osversion: 4.1.1
 # Owner: Edwin van der Geest
 
-- title: HuawaiP6
-  vendor: Huawai
+- title: HuaweiP6
+  vendor: Huawei
   device: P6
   os: Android
   osversion: 4.2.2
