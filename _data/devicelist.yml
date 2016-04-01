@@ -1,8 +1,8 @@
-- title: iPadAir9.3
+- title: iPadAir9.3.1
   vendor: Apple
   device: iPad Air
   os: iOS
-  osversion: 9.3
+  osversion: 9.3.1
 # Owner: Incentro Rotterdam
 
 - title: iPhone3G4.2.1
@@ -12,11 +12,11 @@
   osversion: 4.2.1
 # Owner: Pieter Bogaerts
 
-- title: iPhone4S.9.0
+- title: iPhone4S.9.3.1
   vendor: Apple
   device: iPhone 4S
   os: iOS
-  osversion: 9.0
+  osversion: 9.3.1
 # Owner: Paul Baan
   
 #- title: iPhone4S.9.0.2
