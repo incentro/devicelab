@@ -126,6 +126,7 @@
   osversion: 8.1
   remarks: Currently unavailable
 # Owner: Peter van der Lugt
+# Taken by Peter van der Lugt on 29-04-2016
 
 - title: OculusRiftDK2
   vendor: Oculus
@@ -155,6 +156,7 @@
   osversion: 4.3
   remarks: Currently unavailable
 # Owner: Duco Zitman
+# Taken by Soerin
 
 - title: SamsungGalaxyS5.5.0
   vendor: Samsung
@@ -163,6 +165,7 @@
   osversion: 5.0
   remarks: Currently unavailable
 # Owner: Incentro Rotterdam
+# Taken by Soerin
 
 - title: SamsungGalaxyY2.3.5
   vendor: Samsung
