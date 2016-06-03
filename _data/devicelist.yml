@@ -3,7 +3,9 @@
   device: iPad Air
   os: iOS
   osversion: 9.3.2
+  remarks: Currently unavailable
 # Owner: Incentro Rotterdam
+# Taken by Anno van Doorn
 
 - title: iPhone3G4.2.1
   vendor: Appled
@@ -32,7 +34,9 @@
   device: iPhone 5S
   os: iOS
   osversion: 9.3.2
+  remarks: Currently unavailable
 # Owner: Incentro Rotterdam
+# Taken by Anno van Doorn
 
 - title: iPodTouch4.2.1
   vendor: Apple
@@ -179,7 +183,9 @@
   device: Galaxy Tab 3 10.1
   os: Android
   osversion: 4.4.2
+  remarks: Currently unavailable
 # Owner: Incentro Rotterdam
+# Taken by Anno van Doorn
 
 - title: SamsungI55002.1
   vendor: Samsung
