@@ -1,3 +1,10 @@
+- title: iPad29.3.2
+  vendor: Apple
+  device: iPad 2
+  os: iOS
+  osversion: 9.3.2
+# Owner: Pieter Bogaerts
+
 - title: iPadAir9.3.2
   vendor: Apple
   device: iPad Air
