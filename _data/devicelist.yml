@@ -73,6 +73,13 @@
   osversion: 4.6.1.314
 # Owner: Pieter Beekman
 
+- title: bt.tn
+  vendor: bt.tn
+  device: bt.tn
+  os: none
+  osversion: none
+# Owner: Incentro Rotterdam
+
 - title: GoogleGlass
   vendor: Google
   device: Glass
