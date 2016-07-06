@@ -113,6 +113,7 @@
   device: One
   os: Android
   osversion: 5.0.2
+  remarks: Currently unavailable
 # Owner: Reinier van Scherpenzeel
 
 - title: HTCOneS4.1.1
@@ -221,6 +222,7 @@
   device: I5500
   os: Android
   osversion: 2.1
+  remarks: Currently unavailable
 # Owner: Kasper Reijnders
 
 - title: SonyZ1.5.1.1
@@ -228,6 +230,7 @@
   device: Z1
   os: Android
   osversion: 5.1.1
+  remarks: Currently unavailable
 # Owner: Lisanne van Nieuwkerk
 
 - title: SonyEricssonX102.3.3
