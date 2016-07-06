@@ -19,6 +19,13 @@
   osversion: 4.2.1
 # Owner: Pieter Bogaerts
 
+- title: iPhone3G4.2.1
+  vendor: Apple
+  device: iPhone 3G
+  os: iOS
+  osversion: 4.2.1
+# Owner: Bart Waardenburg
+
 - title: iPhone4S.9.3.2
   vendor: Apple
   device: iPhone 4S
