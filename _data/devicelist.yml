@@ -182,6 +182,14 @@
   remarks: Bring your own SD card
 # Owner: Pieter Bogaerts
 
+- title: RaspberryPi2ModelB
+  vendor: Raspberry Pi
+  device: Raspberry Pi 2 Model B
+  os: none
+  osversion: none
+  remarks: Bring your own micro SD card
+# Owner: Pieter Bogaerts
+
 - title: SamsungGalaxyS2.3.3
   vendor: Samsung
   device: Galaxy S
