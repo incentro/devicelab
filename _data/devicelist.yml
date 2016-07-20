@@ -1,15 +1,15 @@
-- title: iPad29.3.2
+- title: iPad29.3.3
   vendor: Apple
   device: iPad 2
   os: iOS
-  osversion: 9.3.2
+  osversion: 9.3.3
 # Owner: Pieter Bogaerts
 
-- title: iPadAir9.3.2
+- title: iPadAir9.3.3
   vendor: Apple
   device: iPad Air
   os: iOS
-  osversion: 9.3.2
+  osversion: 9.3.3
 # Owner: Incentro Rotterdam
 
 - title: iPhone3G4.2.1
@@ -27,11 +27,11 @@
   osversion: 4.2.1
 # Owner: Bart Waardenburg
 
-- title: iPhone4S.9.3.2
+- title: iPhone4S.9.3.3
   vendor: Apple
   device: iPhone 4S
   os: iOS
-  osversion: 9.3.2
+  osversion: 9.3.3
 # Owner: Paul Baan
   
 #- title: iPhone4S.9.0.2
@@ -42,11 +42,11 @@
 # Owner: Pieter Bogaerts
 # Taken by Pieter Bogaerts
 
-- title: iPhone5S9.3.2
+- title: iPhone5S9.3.3
   vendor: Apple
   device: iPhone 5S
   os: iOS
-  osversion: 9.3.2
+  osversion: 9.3.3
 # Owner: Incentro Rotterdam
 
 - title: iPodTouch4.2.1
@@ -202,11 +202,11 @@
   osversion: 4.3
 # Owner: Duco Zitman
 
-- title: SamsungGalaxyS5.5.0
+- title: SamsungGalaxyS5.6.0.1
   vendor: Samsung
   device: Galaxy S5
   os: Android
-  osversion: 5.0
+  osversion: 6.0.1
 # Owner: Incentro Rotterdam
 
 - title: SamsungGalaxyY2.3.5
