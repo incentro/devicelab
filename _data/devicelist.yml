@@ -12,6 +12,13 @@
   osversion: 9.3.3
 # Owner: Incentro Rotterdam
 
+- title: iPadMini9.3.3
+  vendor: Apple
+  device: iPad Mini
+  os: iOS
+  osversion: 9.3.3
+# Owner: Michiel Hennekam
+
 - title: iPhone3G4.2.1
   vendor: Apple
   device: iPhone 3G
