@@ -41,11 +41,11 @@
   osversion: 9.3.3
 # Owner: Paul Baan
   
-#- title: iPhone4S.9.0.2
-#  vendor: Apple
-#  device: iPhone 4S
-#  os: iOS
-#  osversion: 9.0.2
+- title: iPhone4S.9.3.4
+  vendor: Apple
+  device: iPhone 4S
+  os: iOS
+  osversion: 9.3.4
 # Owner: Pieter Bogaerts
 # Taken by Pieter Bogaerts
 
