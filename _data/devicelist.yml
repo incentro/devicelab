@@ -1,22 +1,22 @@
-- title: iPad29.3.4
+- title: iPad29.3.5
   vendor: Apple
   device: iPad 2
   os: iOS
-  osversion: 9.3.4
+  osversion: 9.3.5
 # Owner: Pieter Bogaerts
 
-- title: iPadAir9.3.4
+- title: iPadAir9.3.5
   vendor: Apple
   device: iPad Air
   os: iOS
-  osversion: 9.3.4
+  osversion: 9.3.5
 # Owner: Incentro Rotterdam
 
-- title: iPadMini9.3.4
+- title: iPadMini9.3.5
   vendor: Apple
   device: iPad Mini
   os: iOS
-  osversion: 9.3.4
+  osversion: 9.3.5
 # Owner: Michiel Hennekam
 
 - title: iPhone3G4.2.1
@@ -41,11 +41,11 @@
   osversion: 9.3.3
 # Owner: Paul Baan
   
-- title: iPhone4S.9.3.4
+- title: iPhone4S.9.3.5
   vendor: Apple
   device: iPhone 4S
   os: iOS
-  osversion: 9.3.4
+  osversion: 9.3.5
 # Owner: Pieter Bogaerts
 
 - title: iPhone5S9.3.3
