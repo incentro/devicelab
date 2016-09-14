@@ -5,11 +5,11 @@
   osversion: 9.3.5
 # Owner: Pieter Bogaerts
 
-- title: iPadAir10.0.0
+- title: iPadAir10.0.1
   vendor: Apple
   device: iPad Air
   os: iOS
-  osversion: 10.0.0
+  osversion: 10.0.1
 # Owner: Incentro Rotterdam
 
 - title: iPadMini9.3.5
@@ -48,11 +48,11 @@
   osversion: 9.3.5
 # Owner: Pieter Bogaerts
 
-- title: iPhone5S10.0.0
+- title: iPhone5S10.0.1
   vendor: Apple
   device: iPhone 5S
   os: iOS
-  osversion: 10.0.0
+  osversion: 10.0.1
 # Owner: Incentro Rotterdam
 
 - title: iPodTouch4.2.1
