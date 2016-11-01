@@ -92,8 +92,6 @@
 - title: bt.tn
   vendor: bt.tn
   device: bt.tn
-  os: none
-  osversion: none
 # Owner: Incentro Rotterdam
 
 - title: GoogleGlass
@@ -178,31 +176,23 @@
 - title: PhilipsBrilliance170S4
   vendor: Philips
   device: Brilliance 170S4 (1280 x 1024)
-  os: none
-  osversion: none
 # Owner: Martijn Dams
 
 - title: RaspberryPiModelB
   vendor: Raspberry Pi
   device: Raspberry Pi Model B
-  os: none
-  osversion: none
   remarks: Bring your own SD card
 # Owner: Pieter Bogaerts
 
 - title: RaspberryPi2ModelB
   vendor: Raspberry Pi
   device: Raspberry Pi 2 Model B
-  os: none
-  osversion: none
   remarks: Bring your own micro SD card
 # Owner: Pieter Bogaerts
 
 - title: RaspberryPi3ModelB
   vendor: Raspberry Pi
   device: Raspberry Pi 3 Model B
-  os: none
-  osversion: none
   remarks: Bring your own micro SD card
 # Owner: Jeroen Ooms
 
