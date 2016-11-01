@@ -65,6 +65,7 @@
 - title: ArduinoUno
   vendor: Arduino
   device: Uno
+  remarks: Contact us for available sensors
 # Owner: Michiel Hennekam
 
 - title: GoogleNexus7.5.1.1
