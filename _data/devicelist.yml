@@ -62,11 +62,11 @@
   osversion: 4.2.1
 # Owner: Pieter Bogaerts
 
-- title: AppleTV.2.1
+- title: AppleTV7.2.1
   vendor: Apple
   device: TV 3rd Gen, 2013
   os: tvOS
-  osversion: 4.2.1
+  osversion: 7.2.1
 # Owner: Incentro Rotterdam
 
 - title: ArduinoUno
