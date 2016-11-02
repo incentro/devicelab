@@ -5,11 +5,11 @@
   osversion: 9.3.5
 # Owner: Pieter Bogaerts
 
-- title: iPadAir10.1
+- title: iPadAir10.1.1
   vendor: Apple
   device: iPad Air
   os: iOS
-  osversion: 10.1
+  osversion: 10.1.1
 # Owner: Incentro Rotterdam
 
 - title: iPadMini9.3.5
@@ -61,6 +61,13 @@
   os: iOS
   osversion: 4.2.1
 # Owner: Pieter Bogaerts
+
+- title: AppleTV.2.1
+  vendor: Apple
+  device: TV 3rd Gen, 2013
+  os: tvOS
+  osversion: 4.2.1
+# Owner: Incentro Rotterdam
 
 - title: ArduinoUno
   vendor: Arduino
@@ -190,10 +197,10 @@
   remarks: Bring your own micro SD card
 # Owner: Pieter Bogaerts
 
-- title: RaspberryPi3ModelB
-  vendor: Raspberry Pi
-  device: Raspberry Pi 3 Model B
-  remarks: Bring your own micro SD card
+#- title: RaspberryPi3ModelB
+#  vendor: Raspberry Pi
+#  device: Raspberry Pi 3 Model B
+#  remarks: Bring your own micro SD card
 # Owner: Jeroen Ooms
 
 - title: SamsungGalaxyS2.3.3
