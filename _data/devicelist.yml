@@ -197,10 +197,10 @@
   remarks: Bring your own micro SD card
 # Owner: Pieter Bogaerts
 
-#- title: RaspberryPi3ModelB
-#  vendor: Raspberry Pi
-#  device: Raspberry Pi 3 Model B
-#  remarks: Bring your own micro SD card
+- title: RaspberryPi3ModelB
+  vendor: Raspberry Pi
+  device: Raspberry Pi 3 Model B
+  remarks: Bring your own micro SD card, currently unavailable
 # Owner: Jeroen Ooms
 
 - title: SamsungGalaxyS2.3.3
