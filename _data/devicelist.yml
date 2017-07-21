@@ -50,11 +50,11 @@
   osversion: 9.3.5
 # Owner: Pieter Bogaerts
 
-- title: iPhone5S10.2
+- title: iPhone5S10.3.3
   vendor: Apple
   device: iPhone 5S
   os: iOS
-  osversion: 10.2
+  osversion: 10.3.3
 # Owner: Incentro Rotterdam
 
 - title: iPodTouch4.2.1
