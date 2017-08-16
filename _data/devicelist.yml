@@ -5,11 +5,11 @@
   osversion: 9.3.5
 # Owner: Pieter Bogaerts
 
-- title: iPadAir10.1.1
+- title: iPadAir10.3.3
   vendor: Apple
   device: iPad Air
   os: iOS
-  osversion: 10.1.1
+  osversion: 10.3.3
 # Owner: Incentro Rotterdam
 
 - title: iPadMini9.3.5
